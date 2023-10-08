@@ -59,6 +59,7 @@ iframe {
   text-shadow: none;
   color: #fff;
 }
+
 img {
   max-width: 100%;
   border: none;
@@ -316,7 +317,7 @@ img {
   5. >>> Experience Style
 ----------------------------------------------------------------*/
 .ds-experience-section {
-  padding-bottom: 120px;
+  padding-bottom: 0px;
 }
 .ds-experience-list section {
   padding-right: 70px;
