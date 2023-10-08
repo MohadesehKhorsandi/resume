@@ -62,6 +62,7 @@ svg,img { max-width: 100%; height: auto; }
 ----------------------------------------------------------------*/
 .ds-about-section{ padding-top: 60px; padding-bottom: 120px; }
 .ds-heading{ display: inline-block; font-weight: 700; color: #000; text-transform: uppercase; letter-spacing: 1px; font-size: 16px; border-bottom: 3px solid #118ab2; padding-bottom: 7px; margin-bottom: 23px; }
+.ds-skills-list li:hover {background-color: #ffe5ec;}
 .ds-about-section p{ color: #373737; font-size: 24px; line-height: 40px; font-weight: 300; margin-bottom: 60px; }
 .ds-about-section ul{ color: #373737; font-size: 24px; line-height: 40px; font-weight: 300; margin-bottom: 60px; padding-inline-start: 56px;}
 
@@ -135,9 +136,9 @@ span.ds-department{ color: #373737; font-weight: 500; font-size: 18px; padding-b
 .ds-footer section span{ color: rgba(255,255,255,0.5); text-transform: uppercase; font-weight: 700; font-size: 16px; letter-spacing: 1px; display: block; padding-bottom: 20px; }
 .ds-footer section  h4{ color: #FFF; font-size: 48px; font-weight: 700; }
 .ds-footer section p{ letter-spacing: 1.13px; color: #FFF; font-size: 18px; margin-bottom: 40px; }
-.ds-copyright{ color: rgba(255,255,255,0.5); letter-spacing: 1px; font-size: 16px; }
+/* .ds-copyright{ color: rgba(255,255,255,0.5); letter-spacing: 1px; font-size: 16px; }
 .ds-copyright a{color: rgba(255,255,255,0.5);}
-.ds-copyright a:hover{ color: #118ab2; }
+.ds-copyright a:hover{ color: #118ab2; } */
 /*-----------------------------------------------------------------
   9. >>> Image Style
 ----------------------------------------------------------------*/
@@ -170,7 +171,7 @@ img.rounded {
 	.ds-work-list p{font-size: 15px; line-height: 30px;}
 	.ds-footer{ padding: 60px 10px; }
 	.ds-footer section h4{ font-size: 40px; }
-	.ds-copyright{ font-size: 14px; }
+	/* .ds-copyright{ font-size: 14px; } */
 	.ds-footer section{ padding-bottom: 30px; }
 	.ds-button{ padding: 11px 10px; }
 	.ds-work-details-section{ padding-top: 30px; }
@@ -189,6 +190,5 @@ img.rounded {
 @media (min-width: 992px) and (max-width: 1199px) {
 	.ds-banner section{ padding-right: 0; }
 	.ds-work-list section{ padding-right: 30px; padding-bottom:60px; }
-
 
 }
