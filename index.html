@@ -284,6 +284,10 @@
     <button class="fab" id="openFab"><img width="40" height="40" src="./assets/images/icons8-chatbot-80.png"
         alt="chatbot" /></button>
 
+
+    <!-- Pop-up message -->
+    <div class="popup" id="popupMessage">Click Me! </div>
+
     <!-- Container for the iframe -->
     <div class="iframe-container" id="iframeContainer">
       <!-- Close button for the iframe -->
@@ -296,13 +300,35 @@
       const openFabButton = document.getElementById('openFab');
       const closeIframeButton = document.getElementById('closeIframe');
       const iframeContainer = document.getElementById('iframeContainer');
+      const popupMessage = document.getElementById('popupMessage');
+
+      function displayPopup() {
+        popupMessage.style.display = 'block';
+        setTimeout(function () {
+          popupMessage.style.display = 'none';
+        }, 3000); // Display for 3 seconds
+      }
+
+      // Show the "click me" message every 30 seconds
+      setInterval(displayPopup, 30000); // 30,000 milliseconds = 30 seconds
 
       openFabButton.addEventListener('click', function () {
         iframeContainer.style.display = 'block';
+        popupMessage.style.display = 'none'; // Hide the pop-up when FAB is clicked
       });
 
       closeIframeButton.addEventListener('click', function () {
         iframeContainer.style.display = 'none';
+      });
+
+      // Show the pop-up when hovering over the FAB
+      openFabButton.addEventListener('mouseover', function () {
+        popupMessage.style.display = 'block';
+      });
+
+      // Hide the pop-up when moving the mouse away from the FAB
+      openFabButton.addEventListener('mouseout', function () {
+        popupMessage.style.display = 'none';
       });
     </script>
 
