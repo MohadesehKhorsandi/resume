@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8" />
@@ -18,6 +19,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   <!-- Main CSS -->
   <link href="assets/css/main.css" rel="stylesheet" />
+  <script src="https://chatbolt.ai/widget/8024c75d-8cad-45dc-94c7-5117b2b7e9db.js"></script>
 
   <title>Mohadeseh Taherkhorsandi - Resume</title>
 </head>
@@ -254,13 +256,14 @@
           <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
             <section>
 
-              <h3 class="ds-certificatename">AI related Conference</h3>
+              <h3 class="ds-certificatename">AI related</h3>
               <p>
-                I've participated in several AI-related conferences,
-                where I had the opportunity to delve into cutting-edge
-                topics, and broaden my knowledge in the field of artificial intelligence.
+                I've actively participated in several AI-related conferences, delving into advanced topics and
+                expanding my knowledge in the field of artificial intelligence. Additionally, my attendance at
+                the AI Summer School significantly enriched my understanding of AI.
               </p>
               <ul>
+                <li>Artificial intelligence Summer School</li>
                 <li> <a href="http://vcert.ir?e=aiconf1&c=W00040258" target="_blank"> Artificial intelligence in
                     computer games</a></li>
                 <li> <a href="http://vcert.ir?e=aiconf1&c=W00030258" target="_blank">Paper writing workshop from
@@ -277,6 +280,30 @@
     </div>
     <!-- certificates -->
 
+    <!-- Floating Action Button -->
+    <button class="fab" id="openFab"><img width="40" height="40" src="./assets/images/icons8-chatbot-80.png" alt="chatbot"/></button>
+
+    <!-- Container for the iframe -->
+    <div class="iframe-container" id="iframeContainer">
+      <!-- Close button for the iframe -->
+      <button class="close-button" id="closeIframe">X</button>
+      <iframe src="https://chatbolt.ai/iframe/8024c75d-8cad-45dc-94c7-5117b2b7e9db" width="100%" height="100%"
+        frameborder="0"></iframe>
+    </div>
+
+    <script>
+      const openFabButton = document.getElementById('openFab');
+      const closeIframeButton = document.getElementById('closeIframe');
+      const iframeContainer = document.getElementById('iframeContainer');
+
+      openFabButton.addEventListener('click', function () {
+        iframeContainer.style.display = 'block';
+      });
+
+      closeIframeButton.addEventListener('click', function () {
+        iframeContainer.style.display = 'none';
+      });
+    </script>
 
     <!--  footer -->
     <footer class="ds-footer text-center">
@@ -303,6 +330,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     -->
     <script src="assets/js/main.js"></script>
+
 
 </body>
 
