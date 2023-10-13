@@ -536,15 +536,14 @@ img.rounded {
  Responsive XS Style @media (max-width: 767px) 
 -------------------------------------------------------------------------------*/
 @media (max-width: 768px) {
-  
   .fab {
     bottom: 10px;
     right: 10px;
-    padding: 10px 15px;
+    padding: 10px;
   }
   .popup {
-    bottom: 40px;
-    right: 20px;
+    bottom: 60px;
+    right: 50px;
   }
   .iframe-container {
     bottom: 60px;
