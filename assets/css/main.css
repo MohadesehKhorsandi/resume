@@ -483,7 +483,7 @@ img.rounded {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #118ab236;
+  background-color: #67909e36;
   color: #fff;
   border: none;
   border-radius: 50%;
@@ -511,10 +511,10 @@ img.rounded {
   top: 10px;
   right: 10px;
   /* background-color: #118ab2; */
-  color: #118ab2;
+  color: #086887;
   border: none;
   border-radius: 50%;
-  padding: 10px;
+  padding: 6px 11px;
   font-size: 14px;
   cursor: pointer;
 }
@@ -526,7 +526,7 @@ img.rounded {
   bottom: 70px;
   right: 50px;
   padding: 10px;
-  background-color: #06465c;
+  background-color: #06475c;
   color: #fff;
   border-radius: 6px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
