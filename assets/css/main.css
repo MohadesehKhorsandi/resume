@@ -1,5 +1,4 @@
 /*
-Theme Name: Jason Stroff
 
   1. >>> Headr Style
   2. >>> Banner Style
@@ -8,6 +7,9 @@ Theme Name: Jason Stroff
   5. >>> Experience Style
   6. >>> certificate Style
   7. >>> Footer Style
+  8. >>> Image Style
+  9. >>> Chatbot Style
+ 10. >>> Hovering Certificate Style
 
 */
 /*--------------------------------------------------------------
@@ -476,7 +478,7 @@ img.rounded {
   clip-path: circle();
 }
 /*-----------------------------------------------------------------
-  Style for chatbot
+  9. >>> Chatbot Style
 ----------------------------------------------------------------*/
 /* Style for the Floating Action Button */
 .fab {
@@ -532,6 +534,30 @@ img.rounded {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+/*-----------------------------------------------------------------
+  10. >>> Hovering Certificate Style
+----------------------------------------------------------------*/
+/* Style for the tooltip text box */
+.tooltip-box {
+  display: none;
+  position: absolute;
+  top: -30px;
+  background-color: #06475c;
+  color: #fff;
+  padding: 5px;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style for the anchor (a) tag when hovered */
+li a:hover {
+  text-decoration: underline;
+}
+
+/* Hover effect for the anchor (a) tag */
+li a:hover + .tooltip-box {
+  display: block;
+}
 /*-------------------------------------------------------------------------------
  Responsive XS Style @media (max-width: 767px) 
 -------------------------------------------------------------------------------*/
