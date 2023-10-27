@@ -549,11 +549,6 @@ img.rounded {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
-/* Style for the anchor (a) tag when hovered */
-li a:hover {
-  text-decoration: underline;
-}
-
 /* Hover effect for the anchor (a) tag */
 li a:hover + .tooltip-box {
   display: block;
